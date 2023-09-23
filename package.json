@@ -1,0 +1,35 @@
+{
+  "name": "notefusion_api",
+  "version": "1.0.0",
+  "description": "This is an API for NoteFusion",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WEB-L00P/notefusion-api.git"
+  },
+  "keywords": [
+    "notefusion",
+    "api"
+  ],
+  "author": "Omkar Bhosale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WEB-L00P/notefusion-api/issues"
+  },
+  "homepage": "https://github.com/WEB-L00P/notefusion-api#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
